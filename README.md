@@ -46,8 +46,8 @@ Rendez-vous sur http://localhost:3000, vous accéderez à l'interface Grafana.
 Commencez par ajouter Prometheus dans les data sources : 
 ![image](https://github.com/Viveledelire/tp1_docker_devops/assets/97473758/401dd1b0-67b5-4cb4-ab59-dfc16dbe7264)
 
-Ensuite, ajouter un dashboard (un graphique pour que ce soit visuel). 
-Configurez ensuite ce graphique en selectionnant Prometheus dans les data sources (ajouté précédemment) et ajoutez la metrics `flask_http_request_total`
+Ensuite, ajouter un dashboard (un graphique pour que ce soit visuel). \n
+Configurez ensuite ce graphique en selectionnant Prometheus dans les data sources (ajouté précédemment) et ajoutez la metrics `flask_http_request_total` \n
 Référence ci-dessous : 
 ![image](https://github.com/Viveledelire/tp1_docker_devops/assets/97473758/2e70ae86-a654-47d4-8cca-1bb1d76c85d9)
 
