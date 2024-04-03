@@ -2,7 +2,7 @@ version: "1"
 
 services:
   flask_app:
-    build: .  
+    image: antoninlm/tp1dockerdevops
     ports:
       - "8080:8080"  
 
