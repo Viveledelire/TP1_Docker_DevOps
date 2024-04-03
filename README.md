@@ -12,8 +12,15 @@ $ docker build -t viveledelire/tp1_docker_devops .
 docker pull antoninlm/tp1dockerdevops
 ```
 ## Run le conteneur
+
+### A partir du build
 ```
-docker run --name my-container -d -p 8080:8080 viveledelire/tp1_docker_devops ou antoninlm/tp1dockerdevops
+docker run --name my-container -d -p 8080:8080 viveledelire/tp1_docker_devops
+```
+
+### A partir de l'image pré-créée
+```
+docker run --name my-container -d -p 8080:8080 antoninlm/tp1dockerdevops
 ```
 
 Maintenant, vous pouvez visitez http://localhost:8080
