@@ -6,7 +6,6 @@ metrics = PrometheusMetrics(app)
 
 @app.route('/')
 def index():
-    nb_visites.inc()
     return 'HelloWorld!'
 
 @app.route("/metrics")
