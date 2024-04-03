@@ -24,6 +24,10 @@ Dans le fichier `docker-compose.yml`, remplacez le nom de l'image référencée 
       - "8080:8080"
     restart: unless-stopped
 ```
+Puis utilisez la commande : 
+```
+docker-compose up -d
+```
 
 ### A partir de l'image pré-créée
 ```
