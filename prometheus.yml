@@ -35,4 +35,4 @@ scrape_configs:
     - localhost:9090
 - job_name: "flask_app"
   static_configs:
-    - targets: ["localhost:8000/metrics"]
+    - targets: ["20.246.43.89:8000/metrics"]
