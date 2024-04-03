@@ -3,12 +3,16 @@ version: "2.2"
 services:
   flask_app:
     image: antoninlm/tp1dockerdevops
+    container_name: app_flask
     ports:
       - "8080:8080"
+    restart: unless-stopped
 
   prometheus:
     image: prom/prometheus
+    container_name: prometheus
     ports:
       - "9090:9090"
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: unless-stopped
