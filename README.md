@@ -31,3 +31,15 @@ Dans le fichier `prometheus.yml`, modifier la `target` pour quelle pointe vers l
       - targets:
         - <IP_publique>:8080
 ```
+
+### Vérification
+
+Vous pouvez maintenant vous rendre sur http://localhost:9090 pour vérifier que Prometheus est bien fonctionnel.
+
+## Conteneur Grafana
+
+Rendez-vous sur http://localhost:3000, vous accéderez à l'interface Grafana.
+
+### Configuration
+
+![image](https://github.com/Viveledelire/tp1_docker_devops/assets/97473758/2e70ae86-a654-47d4-8cca-1bb1d76c85d9)
