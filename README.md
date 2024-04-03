@@ -12,6 +12,14 @@ $ docker build -t viveledelire/tp1_docker_devops .
 docker pull antoninlm/tp1dockerdevops
 ```
 ## Run le conteneur
+
+### A partir du build de l'image
+
+Dans le fichier `docker-compose.yml`, remplacez le nom de l'image référencé par le nom de l'image que vous venez de build.
+```
+```
+
+### A partir de l'image pré-créée
 ```
 docker-compose up -d
 ```
