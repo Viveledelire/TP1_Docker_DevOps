@@ -15,7 +15,7 @@ docker pull antoninlm/tp1dockerdevops
 
 ### A partir du build de l'image
 
-Dans le fichier `docker-compose.yml`, remplacez le nom de l'image référencé par le nom de l'image que vous venez de build. Renommez-la en enlevant les underscore et autre caractères spéciaux pour être sûr que ça fonctionne.
+Dans le fichier `docker-compose.yml`, remplacez le nom de l'image référencée par le nom de l'image que vous venez de build. Renommez-la en enlevant les underscore et autre caractères spéciaux pour être sûr que ça fonctionne.
 ```
  flask_app:
     image: <nom_image>
