@@ -4,7 +4,7 @@ Conteneurisation d'une application Flask avec monitoring Prometheus et dashboard
 ## Build de l'application
 ```
 $ git clone https://github.com/Viveledelire/tp1_docker_devops.git
-$ docker build -t viveledelire/tp1_docker_devops .
+$ docker build -t antoninlm/tp1dockerdevops .
 ```
 
 ## Téléchargement de l'image pré-créée
